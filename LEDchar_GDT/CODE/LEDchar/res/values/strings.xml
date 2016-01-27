@@ -1,0 +1,107 @@
+<resources>
+
+    <string name="app_name">LED大字幕</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="preview">效果预览</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_text_am__main">LED大字幕</string>
+    <string name="start_bt">开始显示</string>
+    <string name="mydrawbt">手写画板</string>
+    <string name="colordisplay">单色画面</string>
+    <string name="animation1">闪烁</string>
+    <string name="animation2">平移</string>
+    <string name="title_animation_display">animation display</string>
+    <string name="spinner_title">动画类型</string>
+    <string name="colorpickerbutton">字体颜色</string>
+    <string name="bcolorpickerbutton">背景颜色</string>
+    <string name="colorinfo">选择颜色</string>
+    <string name="inputnotice">请在光标处输入要显示的文字</string>
+    <string name="animationspeed">动画速度</string>
+    <string name="inputchar">输入要显示的字符：</string>
+    <string name="typechoice">动画类型：</string>
+    <string name="speed">动画速度：</string>
+    <string name="fontsize">字体大小：</string>
+    <string name="backnotice">再按一次返回键退出</string>
+    <string name="btn_clear">清除</string>
+    <string name="menunotice">点击菜单键可以进行设置哦！</string>
+    
+    <string name="huabantitle">手写画板</string>
+    <string name="animationtitle">文字动画</string>
+    <string name="signalcolortitle">单色画面</string>
+    <string name="flashspeedsettitle">设置闪烁速度</string>
+    <string name="rmadtitle">去除广告</string>
+    <string name="rmadnotice">如果您将好评内容+下面的ID号填到app下载评论中去，您app中的广告将会隐藏掉。注：填写内容 "好评"+"ID号"，隐藏广告将会在几个小时后生效！ </string>
+    <string name="rmadid">您的ID: </string>
+    <string name="exit">退出</string>
+    <string name="flashlamp">闪光灯</string>
+    <string name="servicestop">功能已经关闭</string>
+    <string name="nolight">当前设备没有闪光灯！</string>
+
+
+    <string-array name="animatype_array">
+        <item>闪烁</item>
+        <item>平移</item>
+        <item>动画3</item>
+        <item>动画4</item>
+        <item>动画5</item>
+        <item>动画6</item>
+        <item>动画7</item>
+        <item>动画8</item>
+        <item>动画9</item>
+        <item>动画10</item>
+        <item>动画11</item>
+        <item>动画12</item>
+        <item>动画13</item>
+        <item>动画14</item>
+        <item>动画15</item>
+        <item>动画16</item>
+        <item>动画17</item>
+        <item>动画18</item>
+        <item>动画19</item>
+        <item>动画20</item>
+        <item>动画21</item>
+        <item>动画22</item>
+        <item>动画23</item>
+        <item>动画24</item>
+        <item>动画25</item>
+        <item>动画26</item>
+        <item>动画27</item>
+        <item>动画28</item>
+        <item>动画29</item>
+        <item>动画30</item>
+        <item>动画31</item>
+        <item>动画32</item>
+        <item>动画33</item>
+        <item>动画34</item>
+        <item>动画35</item>
+        <item>动画36</item>
+    </string-array>
+
+    <!-- huaban -->
+    <string name="action_settings">Settings</string>
+    <string name="currentwidth">当前选中宽度：</string>
+    <string name="paintwidthsettitle">设置画笔宽度</string>
+    <string name="okbt">确定</string>
+    <string name="cancelbt">取消</string>
+    <string name="colorchoice">颜色选择</string>
+    <string name="redcolor">红色</string>
+    <string name="greencolor">绿色</string>
+    <string name="bluecolor">蓝色</string>
+    <string name="zisecolor">紫色</string>
+    <string name="yellowcolor">黄色</string>
+    <string name="blackcolor">黑色</string>
+    <string name="paintsizeset">设置画笔粗细</string>
+    <string name="paintstyleset">设置画笔样式</string>
+    <string name="linepaint">线状画笔</string>
+    <string name="tianconpaint">填充画笔</string>
+    <string name="clean">清除画布</string>
+    <string name="savedraw">保存画布</string>
+    <string name="exitdraw">退出应用</string>
+    <string name="savesuccess">保存成功</string>
+    <string name="savefailed">保存失败</string>
+    <string name="dragtoselect">拖动选择</string>
+    <string name="colorpickernotice">将手指点到圆环选择要显示的颜色 \n在长方形上左右滑动调节颜色深浅 \n点击中心圆点确认颜色</string>
+    
+    
+
+</resources>

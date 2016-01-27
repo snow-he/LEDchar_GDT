@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/amdisplaylayout"
+    android:orientation="vertical" >
+
+
+    <!-- <com.example.textam.AMtextview
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/hello_world" >
+    </com.example.textam.AMtextview>
+     -->
+
+</LinearLayout>

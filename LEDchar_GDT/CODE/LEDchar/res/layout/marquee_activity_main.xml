@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/marqueelayout"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="start"
+        android:visibility="gone"
+        android:text="走起" />
+    <Button       
+        android:id="@+id/stop"       
+        android:layout_width="wrap_content"       
+        android:layout_height="wrap_content"       
+        android:onClick="stop"   
+        android:visibility="gone"    
+        android:text="停止" />   
+    <Button       
+        android:id="@+id/startfor0"       
+        android:layout_width="wrap_content"       
+        android:layout_height="wrap_content"       
+        android:onClick="startFor0"  
+        android:visibility="gone"     
+        android:text="从头开始" />   
+        
+    <com.example.textam.MarqueeTextView     
+        android:id="@+id/test"       
+        android:layout_width="fill_parent"       
+        android:layout_height="match_parent"            
+        android:ellipsize="marquee"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"       
+        android:singleLine="true"    
+        android:text="@string/hello_world"             
+        android:textSize="150sp" />   
+   
+ 
+     </LinearLayout>
