@@ -13,8 +13,8 @@
     <SeekBar
         android:id="@+id/dialogseekBar"
         android:layout_width="match_parent"
-        android:max="12"
-        android:progress="10"
+        android:max="10"
+        android:progress="5"
         android:layout_height="wrap_content" />
 
 </LinearLayout>

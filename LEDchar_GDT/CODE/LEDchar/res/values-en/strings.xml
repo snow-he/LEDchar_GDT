@@ -23,7 +23,7 @@
     <string name="fontsize">Font Size：</string>
     <string name="backnotice">Press escape again!</string>
     <string name="btn_clear">clear</string>
-    <string name="menunotice">you can press menu button to set</string>
+    <string name="menunotice">you can press volume button to set</string>
     
     <string name="huabantitle">Drawing board</string>
     <string name="animationtitle">Text animation</string>
@@ -40,40 +40,40 @@
     <string-array name="animatype_array">
         <item>Flash</item>
         <item>Translation</item>
-        <item>animation3</item>
-        <item>animation4</item>
-        <item>animation5</item>
-        <item>animation6</item>
-        <item>animation7</item>
-        <item>animation8</item>
-        <item>animation9</item>
-        <item>animation10</item>
-        <item>animation11</item>
-        <item>animation12</item>
-        <item>animation13</item>
-        <item>animation14</item>
-        <item>animation15</item>
-        <item>animation16</item>
-        <item>animation17</item>
-        <item>animation18</item>
-        <item>animation19</item>
-        <item>animation20</item>
-        <item>animation21</item>
-        <item>animation22</item>
-        <item>animation23</item>
-        <item>animation24</item>
-        <item>animation25</item>
-        <item>animation26</item>
-        <item>animation27</item>
-        <item>animation28</item>
-        <item>animation29</item>
-        <item>animation30</item>
-        <item>animation31</item>
-        <item>animation32</item>
-        <item>animation33</item>
-        <item>animation34</item>
-        <item>animation35</item>
-        <item>animation36</item>
+        <item>DropOut</item>
+        <item>Landing/TakingOff</item>
+        <item>Pulse</item>
+        <item>RubberBand</item>
+        <item>Shake</item>
+        <item>Swing</item>
+        <item>Wobble</item>
+        <item>Bounce</item>
+        <item>Tada</item>
+        <item>Wave</item>
+        <item>Hinge</item>
+        <item>RollIn/RollOut</item>
+        <item>BounceIn</item>
+        <item>BounceInDown/Inup</item>
+        <item>BounceInLeft/Right</item>
+        <item>FadeIn/FadeOut</item>
+        <item>FadeInDown/FadeOutDown</item>
+        <item>FadeInLeft/OutRight</item>
+        <item>FadeInRight/FadeOutLeft</item>
+        <item>FadeInUp/FadeOutUp</item>
+        <item>RotateIn/RotateOut</item>
+        <item>RotateInDownLeft/OutDownLeft</item>
+        <item>RotateInDownRight/OutDownRight</item>
+        <item>RotateInUpLeft/RotateOutUpLeft</item>
+        <item>RotateInUpRight/OutUpRight</item>
+        <item>SlideInDown/SlideOutDown</item>
+        <item>SlideInRight/SlideOutLeft</item>
+        <item>SlideInLeft/SlideOutRight</item>
+        <item>SlideInUp/SlideOutUp</item>
+        <item>ZoomIn/ZoomOut</item>
+        <item>ZoomInDown/ZoomOutDown</item>
+        <item>ZoomInRight/ZoomOutLeft</item>
+        <item>ZoomInLeft/ZoomOutRight</item>
+        <item>ZoomInUp/ZoomOutUp</item>
     </string-array>
 
     <!-- huaban -->

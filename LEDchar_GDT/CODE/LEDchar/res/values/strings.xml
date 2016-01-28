@@ -23,7 +23,7 @@
     <string name="fontsize">字体大小：</string>
     <string name="backnotice">再按一次返回键退出</string>
     <string name="btn_clear">清除</string>
-    <string name="menunotice">点击菜单键可以进行设置哦！</string>
+    <string name="menunotice">点击音量键可以进行设置哦！</string>
     
     <string name="huabantitle">手写画板</string>
     <string name="animationtitle">文字动画</string>
@@ -41,40 +41,40 @@
     <string-array name="animatype_array">
         <item>闪烁</item>
         <item>平移</item>
-        <item>动画3</item>
-        <item>动画4</item>
-        <item>动画5</item>
-        <item>动画6</item>
-        <item>动画7</item>
-        <item>动画8</item>
-        <item>动画9</item>
-        <item>动画10</item>
-        <item>动画11</item>
-        <item>动画12</item>
-        <item>动画13</item>
-        <item>动画14</item>
-        <item>动画15</item>
-        <item>动画16</item>
-        <item>动画17</item>
-        <item>动画18</item>
-        <item>动画19</item>
-        <item>动画20</item>
-        <item>动画21</item>
-        <item>动画22</item>
-        <item>动画23</item>
-        <item>动画24</item>
-        <item>动画25</item>
-        <item>动画26</item>
-        <item>动画27</item>
-        <item>动画28</item>
-        <item>动画29</item>
-        <item>动画30</item>
-        <item>动画31</item>
-        <item>动画32</item>
-        <item>动画33</item>
-        <item>动画34</item>
-        <item>动画35</item>
-        <item>动画36</item>
+        <item>滴下来</item>
+        <item>起飞</item>
+        <item>缩放</item>
+        <item>拉伸</item>
+        <item>左右震荡</item>
+        <item>摇摆</item>
+        <item>震荡摇摆</item>
+        <item>跳动</item>
+        <item>振动</item>
+        <item>晃动</item>
+        <item>向右掉下</item>
+        <item>向右翻转</item>
+        <item>放大</item>
+        <item>下来上去</item>
+        <item>向右向左</item>
+        <item>淡入淡出</item>
+        <item>向下淡入淡出</item>
+        <item>向右淡入淡出</item>
+        <item>向左淡入淡出</item>
+        <item>向上淡入淡出</item>
+        <item>顺时旋转</item>
+        <item>顺时转下</item>
+        <item>逆时转下</item>
+        <item>逆时转上</item>
+        <item>顺时转上</item>
+        <item>向下滚动</item>
+        <item>向左滚动</item>
+        <item>向右滚动</item>
+        <item>向上滚动</item>
+        <item>放大缩小</item>
+        <item>向下飞入飞出</item>
+        <item>向左飞入飞出</item>
+        <item>向右飞入飞出</item>
+        <item>向上飞入飞出</item>
     </string-array>
 
     <!-- huaban -->
@@ -100,7 +100,7 @@
     <string name="savesuccess">保存成功</string>
     <string name="savefailed">保存失败</string>
     <string name="dragtoselect">拖动选择</string>
-    <string name="colorpickernotice">将手指点到圆环选择要显示的颜色 \n在长方形上左右滑动调节颜色深浅 \n点击中心圆点确认颜色</string>
+    <string name="colorpickernotice">说明：将手指点到圆环选择要显示的颜色 \n在长方形上左右滑动调节颜色深浅 \n点击中心圆点确认颜色</string>
     
     
 

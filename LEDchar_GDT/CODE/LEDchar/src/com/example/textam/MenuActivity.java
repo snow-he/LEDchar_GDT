@@ -50,8 +50,8 @@ public class MenuActivity extends Activity {
 
 	public void gdtad() {
 		// gdt ad
-		final String APPId = "1101152570";
-		final String BannerPosId = "9079537218417626401";
+		final String APPId = "1101330429";
+		final String BannerPosId = "4000106320999492";
 		
 		 RelativeLayout rlMain = (RelativeLayout)findViewById(R.id.admoblayout0);
 
@@ -70,6 +70,7 @@ public class MenuActivity extends Activity {
            });
 		rlMain.addView(banner);
 		banner.loadAD();
+		banner.setShowClose(true);
 		 
 	}
 	
@@ -156,9 +157,6 @@ public class MenuActivity extends Activity {
 	private OnClickListener flashbtlistener = new OnClickListener() {
 
 		public void onClick(View v) {
-//			Intent intent = new Intent();
-//			intent.setClass(MenuActivity.this, rmadactivity.class);
-//			startActivity(intent);
 			
 			if (MyService.camera != null) {
 

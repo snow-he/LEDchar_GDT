@@ -7,6 +7,7 @@ import android.content.DialogInterface.OnClickListener;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.SubMenu;
@@ -25,7 +26,7 @@ import com.umeng.analytics.MobclickAgent;
 
 public class colorimage extends Activity {
 	private int backgroundcolor = Color.GREEN;
-	private int animationspeed = 1000;
+	private int animationspeed = 500;
 	private Animation AM1;
 	private long AM1duration;
 	private AlertDialog dialog;
@@ -68,7 +69,8 @@ public class colorimage extends Activity {
 				shouWidth.setText(getResources().getString(
 						R.string.currentwidth)
 						+ (progress + 1));
-				animationspeed = (int) ((9 - progress) * AM1duration / 9);
+				animationspeed = (11 - progress)*100;
+				showanim();
 			}
 		});
 		dialog = new AlertDialog.Builder(this)
@@ -102,6 +104,15 @@ public class colorimage extends Activity {
 		}
 	}
 
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if(keyCode==KeyEvent.KEYCODE_VOLUME_DOWN || keyCode==KeyEvent.KEYCODE_VOLUME_UP){
+			openOptionsMenu();
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
+	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		SubMenu colorSm = menu.addSubMenu(1, 1, 1,

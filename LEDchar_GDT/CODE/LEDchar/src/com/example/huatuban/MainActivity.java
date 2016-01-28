@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.SubMenu;
@@ -69,6 +70,15 @@ public class MainActivity extends Activity {
 				.setNegativeButton(getResources().getString(R.string.cancelbt),
 						null).create();
 		Toast.makeText(this, R.string.menunotice, Toast.LENGTH_LONG).show();
+	}
+	
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if(keyCode==KeyEvent.KEYCODE_VOLUME_DOWN || keyCode==KeyEvent.KEYCODE_VOLUME_UP){
+			openOptionsMenu();
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
 	}
 
 	@Override

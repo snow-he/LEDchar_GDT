@@ -71,8 +71,8 @@ public class TextAM_MainActivity extends Activity {
 
 	public void gdtad() {
 		// gdt ad
-		final String APPId = "1101152570";
-		final String BannerPosId = "9079537218417626401";
+		final String APPId = "1101330429";
+		final String BannerPosId = "5080400310195480";
 		
 		 RelativeLayout rlMain = (RelativeLayout)findViewById(R.id.admoblayout);
 		 BannerView banner = new BannerView(this, ADSize.BANNER, APPId, BannerPosId); 
@@ -90,6 +90,7 @@ public class TextAM_MainActivity extends Activity {
            });
 		rlMain.addView(banner);
 		banner.loadAD();
+		banner.setShowClose(true);
 		 
 	}
 

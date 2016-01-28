@@ -9,7 +9,7 @@ import android.widget.TextView;
 public class MarqueeTextView extends TextView implements Runnable {
 	// 当前滚动的位置
 	private int currentScrollX;
-	private int scrollspeed;
+	private static int scrollspeed;
 	private boolean isStop = false;
 	private int textWidth;
 	private boolean isMeasure = false;
@@ -32,7 +32,7 @@ public class MarqueeTextView extends TextView implements Runnable {
 	public void run() {
 		// TODO Auto-generated method stub
 		// 滚动速度
-		currentScrollX += scrollspeed + 2;
+		currentScrollX += scrollspeed*2 + 2;
 		scrollTo(currentScrollX, 0);
 		if (isStop) {
 			return;
@@ -42,7 +42,7 @@ public class MarqueeTextView extends TextView implements Runnable {
 			currentScrollX = -(this.getWidth());
 			// return;
 		}
-		postDelayed(this, 18);
+		postDelayed(this, 5);
 	}
 
 	@Override
@@ -64,9 +64,9 @@ public class MarqueeTextView extends TextView implements Runnable {
 	
 	public void getScrollSpeed(int speed) {
 	    scrollspeed = speed;
-	    if(scrollspeed < 1 || scrollspeed > 5){
-	        scrollspeed = 3;
-	    }
+	    //if(scrollspeed < 1 || scrollspeed > 5){
+	        //scrollspeed = 3;
+	    //}
 	}
 
 	// 开始滚动
